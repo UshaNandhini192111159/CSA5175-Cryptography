@@ -15,6 +15,6 @@ def hill_encrypt(message, key):
     encrypted_message = ''.join(chr(value + ord('a')) for value in encrypted_values)
     return encrypted_message
 key = int(input("enter the key"))
-message = str("enter the message"))
+message = str(("enter the message"))
 encrypted_message = hill_encrypt(message, key)
 print("Encrypted message:", encrypted_message)
